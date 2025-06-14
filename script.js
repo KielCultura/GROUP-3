@@ -1,4 +1,4 @@
-const API_KEY = AIzaSyDfTdViHMgd2r7PnCtCWPGg2YBJS9ODLs8; // Replace with your actual API key
+const API_KEY = "AIzaSyDfTdViHMgd2r7PnCtCWPGg2YBJS9ODLs8"; // Replace with your actual API key
 
 async function getTop10() {
     const query = document.getElementById("query").value;
