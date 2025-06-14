@@ -1,9 +1,5 @@
+const API_KEY = "AIzaSyDfTdViHMgd2r7PnCtCWPGg2YBJS9ODLs8"; // Do NOT expose real API keys in production!
 
-main();
-
-const API_KEY = "AIzaSyDfTdViHMgd2r7PnCtCWPGg2YBJS9ODLs8"; // Replace with your actual API key.
-
-import { GoogleGenAI } from "@google/genai";
 async function getTop10() {
     const query = document.getElementById("query").value;
     console.log("User input:", query);
